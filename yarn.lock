@@ -533,9 +533,9 @@ heroku-redis@1.2.12:
     ioredis "1.9.0"
     ssh2 "0.4.11"
 
-heroku-run@3.4.7:
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/heroku-run/-/heroku-run-3.4.7.tgz#4be69b37472ad06a7b6de366049f0e63fbff9339"
+heroku-run@3.4.8:
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/heroku-run/-/heroku-run-3.4.8.tgz#8de7a907741a984267d6775c96a11d671b31523c"
   dependencies:
     co "4.6.0"
     heroku-cli-util "6.1.15"
