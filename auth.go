@@ -43,52 +43,6 @@ func init() {
 			},
 		},
 	},
-		{
-			Name:   "twofactor",
-			Hidden: true,
-			Commands: Commands{
-				{
-					NeedsAuth:   true,
-					Description: "check 2fa status",
-					Run:         twoFactorRun,
-				},
-				{
-					Command:     "generate-recovery-codes",
-					Description: "Generates and replaces recovery codes",
-					NeedsAuth:   true,
-					Run:         twoFactorGenerateRun,
-				},
-				{
-					Command:     "disable",
-					Description: "Disable two-factor authentication for your account",
-					NeedsAuth:   true,
-					Run:         twoFactorDisableRun,
-				},
-			},
-		},
-		{
-			Name:   "2fa",
-			Hidden: true,
-			Commands: Commands{
-				{
-					NeedsAuth:   true,
-					Description: "check 2fa status",
-					Run:         twoFactorRun,
-				},
-				{
-					Command:     "generate-recovery-codes",
-					Description: "Generates and replaces recovery codes",
-					NeedsAuth:   true,
-					Run:         twoFactorGenerateRun,
-				},
-				{
-					Command:     "disable",
-					Description: "Disable two-factor authentication for your account",
-					NeedsAuth:   true,
-					Run:         twoFactorDisableRun,
-				},
-			},
-		},
 	}...,
 	)
 }
